@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Age({ age }) {
   return (
-    <div>Your age is { age }</div>
-  )
+    <div>
+      {age > 18 && <p>Your age is {age}</p>} 
+      {age < 18 && <p>You are very young!</p>}
+    </div>
+  );
 }
 
-export default Age
+export default Age;
