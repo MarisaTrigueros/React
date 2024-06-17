@@ -10,7 +10,7 @@ function App() {
     <Hello />
     <Hello />
     <Message/>
-    <Welcome name="People" age={30}/>
+    <Welcome name="People" age="5"/>
     </>
   )
 }
